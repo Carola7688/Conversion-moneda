@@ -1,0 +1,42 @@
+-----------------------------------------
+
+
+Problema:
+"La empresa mexicana Supertech está perdiendo dinero porque en las transacciones desde moneda internacional hay muchos errores del personal 
+al realizar cáculos a mano para pasar de Euro a Peso Mexicano, y de Dólar a Peso Mexicano en los pagos de las importaciones"
+
+
+-----------------------------------------
+
+Algoritmo:
+# Paso 1: Determinar el valor de cambio de cada tipo de moneda (eur/usd)
+# Paso 2: Solicitar al usuario que indique el tipo de moneda inicial
+# Paso 3: Solicitar al usuario que ingrese el monto a convertir
+# Paso 4: Convertir el monto indicado a la moneda correspodiente
+
+----------------------------------------
+Pseudocódigo:
+Inicio
+# Paso 1: Determinar el valor de cambio de cada tipo de moneda (eur/usd)
+    Valor_EUR = xx
+    Valor_USD = yy
+
+# Paso 2: Solicitar al usuario que indique el monto que desea convertir
+    Mostrar msj: "Por favor, indique el tipo de cambio inicial (EUR/USD): "
+
+# Paso 3: Solicitar al usuario que ingrese el monto a convertir
+    Mostrar msj: "Por favor, ingrese el monto que desea convertir: "
+
+# Paso 4: Realizar la conversión
+    Si tipo de cambio == EUR, valor_EUR * monto
+        Mostrar msj "La conversión de EUR a Pesos MXN da: " resultado
+    Sino tipo de cambio == USD, valos_USD * monto
+        Mostrar msj "La conversión de USD a Pesos MXN da: " resultado
+    Sino
+        Mostrar msj: "No está disponible ese tipo de cambio"
+
+Fin
+
+
+Diagrama de flujo
+https://miro.com/welcomeonboard/NGlkZFhCVGpxQkhnNk1tdGdqZDZibUV4OXBqZ0VFMDdLQm1nWXp0MVlIMkMwUjloT2R4d2dVYmFMbWQzYXptV3wzNDU4NzY0NjAyNTk2MjQ4MjY5fDI=?share_link_id=5298173366
